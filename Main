@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        ReportExporter exporter = new ReportExporter();
+        System.out.println("|             NHẬT KÝ EXPORT BÁO CÁO KẾ TOÁN           |");
+        System.out.println("| [Lần 1 - Thành công]");
+        exporter.exportReport(false);
+        System.out.println("| [Lần 2 - Gặp sự cố mạng]");
+        exporter.exportReport(true);
+    }
+}
